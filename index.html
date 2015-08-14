@@ -29,6 +29,7 @@
         $.when($dau, $revenue).done(function(dau, revenue){
           var dauValues = dau.values();
           var revenueValues = revenue.values();
+          console.log(dauValues, revenueValues);
           var data = {
               'ARPDAU': {
               }
